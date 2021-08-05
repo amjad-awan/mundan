@@ -1,0 +1,241 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Old Standard TT', serif;
+}
+/*-------------------- firts top bar -------------------*/
+.top-bar
+{
+    width: 100%;
+    background-color: #2298B2;
+}
+
+.top-bar ul
+{
+    padding: 20px 0px;
+    display: flex;
+}
+
+.top-bar ul li{
+    list-style: none;
+    display: flex;
+    padding: 0px 20px;
+}
+
+
+.top-bar ul li a
+{
+    color:#DEDEDE;
+    //text-decoration: none;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+/*------------------------------------------ second main menu bar -----------------------*/
+
+
+.second-nav-bar
+{
+    margin-top: -16px;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+.second-nav-bar nav
+{
+    padding: 20px 0px;
+}
+
+.second-nav-bar nav li{
+    padding-right: 50px;
+}
+
+.second-nav-bar nav a{
+    text-decoration: none;
+    color:#646363 !important;
+    font-size: 20px;
+}
+
+
+.white-section
+{
+    width: 100%;
+    height: 200px;   
+}
+
+
+
+/*------------------- THnk grow section --------------*/
+.THink-grow-section
+{
+    width: 100%;
+    background-color: #6996B2;
+    //padding-bottom: 100px;
+}
+
+.THink-grow-section .main-text
+{
+    padding: 100px 0px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.THink-grow-section .main-text h1{
+   
+    font-size: 40px;
+}
+
+.THink-grow-section .main-text p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*-------------------------About Us ------------------*/
+
+.main-area .about-us
+{
+    padding: 100px 0px 200px 0px;
+    box-shadow: 0px -5px 5px rgba(239, 241, 242,0.7);
+
+}
+{
+
+}
+.main-area .about-us h2
+{
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #646363;
+    
+}
+
+.main-area .about-us .line{
+    position: relative;
+    width: 100%;
+    height: 7px;
+    background-color: #F3F3F3;
+    //border: 5px solid #F3F3F3;
+    border-radius: 10px;
+    margin-bottom:60px;
+}
+
+.main-area .about-us .overlap
+{
+    //position: absolute;
+    left:0%;
+    top:0%;
+    width: 250px;
+    height: 7px;
+    background-color:#05639F;
+    border-radius:10px;
+}
+
+.main-area .about-us p{
+    text-align: justify;
+    color:#646363;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-area .about-us .read-more
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+.main-area .about-us .read-more a{
+    padding: 15px 40px ;
+    background-color: #05639F;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-area .about-us .red-area
+{
+    width: 100%;
+    height: 300px;
+    background-color: #E654CA;
+}
+
+
+
+
+/*--------------------- service section ----------------*/
+
+.main-area .service
+{
+    width: 100%;
+    background-color: #DEDEDE;
+}
+
+
+.main-area .service .card
+{
+    background-color:#F3F3F3;
+    width: 100%;
+    height: 300px;
+    //border:1px solid red;
+    box-shadow:-5px -5px 5px 5px 5px #C4C4C4;
+}
+
+.main-area .service .card .inner-items
+{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.main-area .service .card .inner-items p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.main-area .service .card .inner-items p i{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    color:#C4C4C4;
+
+}
+
+@media only screen and (max-width: 768px)
+{
+
+    .top-bar ul
+{
+    padding: 20px 0px;
+    display: block;
+  
+}
+
+.second-nav-bar nav li{
+    padding-right: unset;
+}
+
+.second-nav-bar nav .fa-bars
+{
+    color:black;
+    border: 2px solid black;
+}
+
+.navbar-toggler-icon
+{
+    color:black !important
+}
+
+
+}
